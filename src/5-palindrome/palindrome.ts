@@ -1,3 +1,4 @@
-export const sort = (arr: string[]): string[] => {
-  return arr.sort();
+export const isPalindrome = (str: string): boolean => {
+  const invertedText = str.split("").reverse().join("");
+  return str == invertedText;
 };
